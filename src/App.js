@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
-import AddTransaction from './components/AddTransaction';
-import Header from './components/header/Header';
 import {GlobalProvider} from "./context/GlobalState";
+import Header from './components/header/Header';
+import AddTransaction from './components/AddTransaction';
+import IncomeList from './components/income/IncomeList';
+import ExpensesList from './components/expense/ExpensesList';
+
 
 function App() {
   return (
@@ -10,6 +13,10 @@ function App() {
       <div className="App">
         <Header />
         <AddTransaction />
+        <div className='container'>
+          <IncomeList />
+          <ExpensesList />
+        </div>
       </div>
     </GlobalProvider>
   );
