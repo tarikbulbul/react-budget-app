@@ -1,3 +1,8 @@
+Made a simple budget tracker app using hooks such as useState, useEffect, useContext and useReduce. Data is storred in localStorage.
+Learned how to work with Context and Reducer.
+
+# Live: https://react-budget-app-a0e26.firebaseapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
